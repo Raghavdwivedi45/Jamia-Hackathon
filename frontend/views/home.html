@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alumni Connect</title>
+  <link rel="stylesheet" href="../public/css/home.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">AlumniConnect</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#join">Join</a></li>
+      </ul>
+      <button class="login-btn" onclick="login()">Login</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Alumni Connect</h1>
+    <p>Stay connected, share stories, and grow your network.</p>
+    <a href="#join" class="cta">Join Now</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Alumni Connect is a platform to bring our alumni community together for events, networking, and updates.</p>
+  </section>
+
+  <section id="events" class="section">
+    <h2>Upcoming Events</h2>
+    <p>Check back soon for exciting alumni meetups and webinars.</p>
+  </section>
+
+  <section id="news" class="section">
+    <h2>Latest News</h2>
+    <p>Recent achievements and updates from our alumni community.</p>
+  </section>
+
+  <section id="join" class="section join">
+    <h2>Join the Network</h2>
+    <p>Connect with peers, mentors, and opportunities.</p>
+    <button onclick="signup()">Sign Up</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alumni Connect. All rights reserved.</p>
+  </footer>
+
+  <script src="../public/js/home.ejs"></script>
+</body>
+</html>
